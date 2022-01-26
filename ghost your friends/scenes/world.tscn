@@ -1,0 +1,54 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Player/player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/Bush.tscn" type="PackedScene" id=2]
+
+[node name="world" type="YSort"]
+__meta__ = {
+"_edit_horizontal_guides_": [  ]
+}
+
+[node name="player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 106, 68 )
+
+[node name="Bush" parent="." instance=ExtResource( 2 )]
+position = Vector2( 19, 19 )
+
+[node name="Bush2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 131, 30 )
+
+[node name="Bush3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 228, 44 )
+
+[node name="Bush5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 243, 105 )
+
+[node name="Bush6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 155, 108 )
+
+[node name="Bush4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 41, 123 )
+
+[node name="Bush7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 86, 172 )
+
+[node name="Bush8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 343, 140 )
+
+[node name="Bush" parent="Bush8" instance=ExtResource( 2 )]
+position = Vector2( -50, 55 )
+
+[node name="Bush2" parent="Bush8" instance=ExtResource( 2 )]
+position = Vector2( -177, 64 )
+
+[node name="Bush" parent="Bush8/Bush2" instance=ExtResource( 2 )]
+position = Vector2( 267, -148 )
+
+[node name="Bush9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 341, 68 )
+
+[node name="Bush10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 475, 205 )
+
+[node name="Bush11" parent="." instance=ExtResource( 2 )]
+position = Vector2( 29, 261 )

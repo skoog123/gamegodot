@@ -1,0 +1,24 @@
+{
+	"color": "#ff4a2222",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1643173032.json",
+	"mirror_portraits": false,
+	"name": "boss",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -80,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "bosss (2)",
+			"path": "res://arts/bosss (2).png"
+		}
+	],
+	"scale": 60
+}

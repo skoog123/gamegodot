@@ -1,0 +1,135 @@
+{
+	"events": [
+		{
+			"background": "res://arts/bg bed 1.jpg",
+			"event_id": "dialogic_021",
+			"fade_duration": 2.3
+		},
+		{
+			"event_id": "dialogic_023",
+			"wait_seconds": 3.1
+		},
+		{
+			"background": "res://arts/bg bed 2.jpg",
+			"event_id": "dialogic_021",
+			"fade_duration": 0.1
+		},
+		{
+			"action": "join",
+			"character": "character-1643173032.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "bosss (2)",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1643174816.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Boss sent a text"
+		},
+		{
+			"character": "character-1643173032.json",
+			"event_id": "dialogic_001",
+			"portrait": "bosss (2)",
+			"text": "Hey maya what's up?"
+		},
+		{
+			"action": "join",
+			"character": "character-1643172728.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "cover screen",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1643174816.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Maya joined the chat."
+		},
+		{
+			"character": "character-1643172728.json",
+			"event_id": "dialogic_001",
+			"portrait": "cover screen",
+			"text": "Nothing really, why?"
+		},
+		{
+			"character": "character-1643173032.json",
+			"event_id": "dialogic_001",
+			"portrait": "bosss (2)",
+			"text": "I was wondering if you could come into work today?"
+		},
+		{
+			"character": "character-1643172728.json",
+			"event_id": "dialogic_001",
+			"portrait": "cover screen",
+			"text": "..."
+		},
+		{
+			"character": "character-1643172728.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "cover screen3",
+			"question": "( Should i go into work today?)"
+		},
+		{
+			"choice": "No way..",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_scene": "res://scenes/world.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"character": "character-1643172728.json",
+			"event_id": "dialogic_001",
+			"portrait": "cover screen2",
+			"text": "No thanks lol"
+		},
+		{
+			"character": "character-1643174816.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Maya left the chat."
+		},
+		{
+			"choice": "They might really need me..",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1643172728.json",
+			"event_id": "dialogic_001",
+			"portrait": "cover screen3",
+			"text": "(But this is my only day off this week and i've really been looking forward to playing the new snark douls game..)"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1643172918.json",
+		"name": "timeline-1643172918"
+	}
+}

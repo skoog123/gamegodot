@@ -1,0 +1,32 @@
+{
+	"color": "#fff7c1ff",
+	"description": "mc",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1643172728.json",
+	"mirror_portraits": false,
+	"name": "maya",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 110,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "cover screen",
+			"path": "res://arts/cover screen.png"
+		},
+		{
+			"name": "cover screen2",
+			"path": "res://arts/cover screen2.png"
+		},
+		{
+			"name": "cover screen3",
+			"path": "res://arts/cover screen3.png"
+		}
+	],
+	"scale": 70
+}
